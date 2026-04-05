@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-on-primary-container: #7ba89c;
+  --color-on-secondary: #ffffff;
+  --color-surface-container: #eaefed;
+  --color-primary-fixed: #bdecdf;
+  --color-on-tertiary-fixed-variant: #1d4f40;
+  --color-surface-container-low: #f0f5f3;
+  --color-outline: #717976;
+  --color-surface-container-highest: #dee4e2;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed-dim: #a2d0c3;
+  --color-secondary-fixed-dim: #99d91b;
+  --color-surface-variant: #dee4e2;
+  --color-secondary-fixed: #b4f73d;
+  --color-surface-container-lowest: #ffffff;
+  --color-background: #f5faf8;
+  --color-on-secondary-container: #4b6f00;
+  --color-on-tertiary: #ffffff;
+  --color-outline-variant: #c0c8c5;
+  --color-tertiary-fixed: #baeed9;
+  --color-secondary-container: #b4f73d;
+  --color-on-primary: #ffffff;
+  --color-error: #ba1a1a;
+  --color-surface-container-high: #e4e9e7;
+  --color-on-surface-variant: #404846;
+  --color-on-primary-fixed-variant: #224e45;
+  --color-on-tertiary-fixed: #002117;
+  --color-inverse-primary: #a2d0c3;
+  --color-on-secondary-fixed-variant: #344e00;
+  --color-error-container: #ffdad6;
+  --color-inverse-on-surface: #edf2f0;
+  --color-primary-container: #0d3d34;
+  --color-tertiary: #00271c;
+  --color-on-secondary-fixed: #121f00;
+  --color-on-tertiary-container: #78a997;
+  --color-surface-bright: #f5faf8;
+  --color-on-primary-fixed: #00201a;
+  --color-tertiary-fixed-dim: #9ed1bd;
+  --color-surface-tint: #3a665c;
+  --color-on-error: #ffffff;
+  --color-secondary: #466800;
+  --color-surface: #f5faf8;
+  --color-on-background: #171d1c;
+  --color-primary: #00261f;
+  --color-inverse-surface: #2c3130;
+  --color-on-surface: #171d1c;
+  --color-tertiary-container: #073e30;
+  --color-surface-dim: #d6dbd9;
+
+  --font-headline: "Manrope", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+
+  --radius-lg: 2rem;
+  --radius-xl: 3rem;
+}
+
+@layer utilities {
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+}
